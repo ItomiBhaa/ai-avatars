@@ -1,0 +1,154 @@
+Hello
+
+Please write a series of JSON so that I can generate image/portrait for these characters according to their folowing description.
+
+----------------------------------------
+
+Capitaine Aristides Linterna
+
+The pirate captain, eye patch blue coath, balc bearb
+
+----------------------------------------
+
+Contramaestre Cleofé Mesana
+
+female First Mate
+brown skinn yellow outfit
+
+----------------------------------------
+
+Sobrecargo Orencio Barillete
+Quartermaster
+Fat man
+brown skinn
+Bald with withe mustache green and whit outfit
+
+----------------------------------------
+
+Vigia Tiburce Astilla
+
+Lookout
+Skinny man
+Rehead , goatee, light purple shit whit leather strap crossing his chest
+
+
+----------------------------------------
+
+Intendante Pétronila Calderilla
+
+woman cock
+plus sized
+compethely red outfit
+redhair with braided
+
+----------------------------------------
+
+Barnabé el Polizon
+(o el fiero segun el}
+
+yound Stowaway
+
+
+----------------------------------------
+
+These characters are sailors/pirates ... etc.  All shall have a graphical positive attitude (not necesarly smilling) thus avoid word like fierce, cruel, angry ... etc ...
+These characters are form the 15th 16th or 17th century
+Clothe color shall be vivid.
+The character_prompt shall be short and efficient. Not too much details. Since the image is a head-and-shoulders portrait avoid details that will not be drawed (like pet leg)
+
+
+The JSON shall follow this template
+
+  {
+    "function": [2 digit number starting at 01] [Insert the Character Function],
+	"name": [Insert Character Name],
+	"gender": [Insert Character Gender],
+    "character_prompt": [Insert Character description],
+    "format": "A head-and-shoulders  portrait, square format, 3/4 view."
+	"style_prompt": "A comics strip character in strict minimalist Hägar the Horrible style, square format, 3/4 view. Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture, and classic but nervous Dik Browne visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "style_coloring": "Ben-Day dots / vintage halftone comic coloring",
+    "style_strength": "high",
+    "global_style_seed": [4 digit number],
+    "transparent_background": true
+  },
+  
+ Put all the json in one file
+ 
+ 
+ [
+  {
+    "function": "01 Pirate Captain",
+    "name": "Capitaine Aristides Linterna",
+    "gender": "male",
+    "character_prompt": "Blue coat, blue eyepatch, black beard, confident pirate captain with vivid colors.",
+    "format": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "A comics strip character in strict minimalist Hägar the Horrible style, square format, 3/4 view. Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture, and classic but nervous Dik Browne visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "style_coloring": "Ben-Day dots / vintage halftone comic coloring",
+    "style_strength": "high",
+    "global_style_seed": 4127,
+    "transparent_background": true
+  },
+  {
+    "function": "02 First Mate",
+    "name": "Contramaestre Cleofé Mesana",
+    "gender": "female",
+    "character_prompt": "Brown skin, vivid yellow outfit, composed first mate with a positive attitude.",
+    "format": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "A comics strip character in strict minimalist Hägar the Horrible style, square format, 3/4 view. Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture, and classic but nervous Dik Browne visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "style_coloring": "Ben-Day dots / vintage halftone comic coloring",
+    "style_strength": "high",
+    "global_style_seed": 9034,
+    "transparent_background": true
+  },
+  {
+    "function": "03 Quartermaster",
+    "name": "Sobrecargo Orencio Barillete",
+    "gender": "male",
+    "character_prompt": "Fat man, brown skin, bald with white mustache, green and white outfit, cheerful quartermaster.",
+    "format": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "A comics strip character in strict minimalist Hägar the Horrible style, square format, 3/4 view. Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture, and classic but nervous Dik Browne visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "style_coloring": "Ben-Day dots / vintage halftone comic coloring",
+    "style_strength": "high",
+    "global_style_seed": 1289,
+    "transparent_background": true
+  },
+  {
+    "function": "04 Lookout",
+    "name": "Vigia Tiburce Astilla",
+    "gender": "male",
+    "character_prompt": "Skinny man, redhead with goatee, light purple shirt and leather strap, alert lookout.",
+    "format": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "A comics strip character in strict minimalist Hägar the Horrible style, square format, 3/4 view. Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture, and classic but nervous Dik Browne visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "style_coloring": "Ben-Day dots / vintage halftone comic coloring",
+    "style_strength": "high",
+    "global_style_seed": 5572,
+    "transparent_background": true
+  },
+  {
+    "function": "05 Purser",
+    "name": "Intendante Pétronila Calderilla",
+    "gender": "female",
+    "character_prompt": "Plus-sized woman, fully red outfit, red braided hair, confident and organized purser.",
+    "format": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "A comics strip character in strict minimalist Hägar the Horrible style, square format, 3/4 view. Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture, and classic but nervous Dik Browne visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "style_coloring": "Ben-Day dots / vintage halftone comic coloring",
+    "style_strength": "high",
+    "global_style_seed": 6641,
+    "transparent_background": true
+  },
+  {
+    "function": "06 Stowaway",
+    "name": "Barnabé el Polizón",
+    "gender": "male",
+    "character_prompt": "Young stowaway with lively expression and simple vivid clothing.",
+    "format": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "A comics strip character in strict minimalist Hägar the Horrible style, square format, 3/4 view. Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture, and classic but nervous Dik Browne visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "style_coloring": "Ben-Day dots / vintage halftone comic coloring",
+    "style_strength": "high",
+    "global_style_seed": 7310,
+    "transparent_background": true
+  }
+]
+
+ 
+ 
