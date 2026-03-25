@@ -1,0 +1,1041 @@
+Hello
+
+Using the schema hereunder, can you generate 20 characters prompts (10 females and 10 males) all in the same file.
+All the characters are unexperimented, no negative attitude, low‑level adventurers from 12th to 18th‑century pulp adventure genres (explorers, soldiers, knights/ pirates, scouts, treasure hunters, etc.), with no captains, kings, or high‑rank roles.
+Since the image is A head-and-shoulders porttrait character_prompt souldd not give detail about elements that are not inside the portrait.
+IN your description, feel free to use theese kind of items
+
+| Webbed fingers and toes, Black robes, Ritual Dagger (d6) [random profane power], Profane Tattoos [random profane power], +1 specialty | Rapier (d6), Flintlock Gun (d6), Breastplate (1), Alien Idol [random profane power], +1 specialty | Rune covered sword (d6) [random profane power], Crossbow (d6), Chainmail (1), +1 specialty                  |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Dagger (d6), Lockpicks, rope, Grappling hook, Hexed Lantern [random profane power], +1 specialty                                      | Cutlass (d6), Pistol (d8), Bottle of acid, Deformed skull [random profane power], +1 specialty    | Longbow (d8), Pen and Ink, Plate shinguards (1), Swirling Compass [random profane power], +1 specialty      |
+| Scoped Rifle (d8), Star chart, Abacus, Blank map, Haunted Medallion [random profane power], +1 specialty                              | Musket (d8), Woodaxe (d6), Animal hide (1), Pet lizard, Spellbinding Lute [random profane power]  | Crossbow (d8), Hunting Knife (d6), Flea-bitten mutt, Net, Dog treats, Black Gauntlet [random profane power] |
+| Mace (d6), Symbol of Faith, Incense, Black Censer [random profane power]                                                              | Slingshot (d6), Animal Lure, Twisted Flute [random profane power]                                 | Halberd (d8), Smoke Bomb, Strange Rifle (d8) [random profane power]                                         |
+| Barbed whip (d6), Holy scripture, Painful invocation [random profane power]                                                           | Pickaxe (d8), Dynamite (d10), Keg of gunpowder                                                    | Chefs knife (d6), Fine wine, Bag of spices                                                                  |
+| Blunderbuss (d8), Treasure Map, Mysterious Growth [random profane power]                                                              | Obsidian Spear (d8), Foldable Ladder, Bag of marbles                                              | Hand-scythe (d6), Tobacco, Pipe, Chalk                                                                      |
+| Blowgun (d6), Exotic seeds, Animal mask                                                                                               | Machete (d6), Powder horn, Accordion                                                              | Mancatcher (d6), Net, Bait, Rat in small cage                                                               |
+| Giant crab leg (d6), Giant crab shell (1), Delicious crab meat                                                                        | Chain whip (d6), Wood snorkel, Air bladder                                                        | War pickaxe (d8), Helmet (1), Red war banner                                                                |
+| Broken bottle (d6), Fishing Rod, bait, Horrible facial scar                                                                           | Rock sling (d6), Choking dust, Itching powder                                                     | Giant tooth (d6), Lizard hide (1), Pet Falcon                                                               |
+| Gun (d6) hidden inside pegleg, Visored helmet (1)                                                                                     | Knuckleduster (d6), Metal file, Hand drill                                                        | 1-shot-pistol (d6), Pet raven, Glass Eye                                                                    |
+| Cutlass (d6), Binoculars, Stack of bananas, Odd pet monkey [random profane power], +1 specialty        | Staff (d6), Blank scrolls, Pen and Ink, Looking glass, Blasphemous Tome [random profane power], +1 specialty | Battleaxe (d8), Horned helmet (1), Barrel of mead, Braided beard, Mushroom brew |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| Greatsword (d8), Pet Parrot, Sturdy chains, lock, Warped Spyglass [random profane power], +1 specialty | 3 Throwing Axes (d6), Flail (d6), Expensive coffee beans, Portable cooking kit, +1 specialty                 | Hand bow (d6), Throwing spear (d6), Trumpet, Disguise kit                       |
+| Sword cane (d6), Marked cards, Loaded Dice, String, Magnet                                             | Flail (d6), 10 foot pole, Pliers, Grease, Sundial, Fashionable hat                                           | Razor (d6), Beard brush, Soap, Scented oils, Leather strop                      |
+| Rolling pin (d6), Leather apron (1), Large bag of flour                                                | Harpoon (d6), Oar (d6), Jar of honey                                                                         | Spiked bat (d6), War paint, Jug of moonshine                                    |
+| Combat shovel (d6), Animal repellent, Pet roach                                                        | Spear (d8), Bear-trap (d6), String, Small bell                                                               | Boomerang (d6), Spear (d8), Round shield (1)                                    |
+| Brass staff (d6), Expensive tea, Loud horn                                                             | Discreet gun (d6), Opium, Pipe, Chess set                                                                    | Revolver (d6), Sturdy boots, Fake gold bar                                      |
+| Gun (d6) inside fake book, hip flask, Fire Oil (d6)                                                    | Shank (d6), Brass megaphone, Pet possum                                                                      | Hammer (d6), Nails, D6 gold teeth                                               |
+| Sledgehammer (d8), Darts (d4), Hooked hand (d4)                                                        | Poison tipped spear (d8), Rope ladder, Broken nose                                                           | Bayonet (d6), Musket (d8), Illiterate                                           |
+| Bulbous eyes, Trident (d8), Barnacle covered (1)                                                       | Knife (d6), Jug of hooch, Delirium tremens                                                                   | Rusty knife (d6), Net, Lobster Cage                                             |
+| Sturdy crutch (d6), Bandages all over, Peg-Legged                                                      | Hook on a pole (d6), Net filled with fish, Scurvy                                                            | Branding iron (d6), Iron mask (1), Covered in scars                             |
+
+
+    "image_title": [XXX Function],
+    "gender": [Insert gender],
+	"character_prompt": [Insert character description here],
+	"format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+	"puppet_properties": {
+		"construction": "stitched puppet features with exaggerated shapes",
+		"skin_color": [Insert a un realistic skin color],
+		"skin_texture": "smooth felt-like surface with soft matte finish",
+		"hair_color": [Insert a hair color],
+		"hair_texture": it has to be very puppet, it can be "long synthetic strands, slightly glossy",
+		"hair_style": "straight, voluminous, flowing downward"
+	},
+	"global_style_seed": 7654,
+	"transparent_background": true
+
+
+XXX is a 3 digits number starting at 150
+Function is a very short description of the character, ex: Fierce Harpooner, Elegant Adventurer, Superstitious Sailor
+
+and the possible values for the fields
+
+
+skin_texture	smooth felt, fuzzy felt, coarse felt, plush-like, fine-grain fabric, matte foam surface
+hair_texture	synthetic fiber strands, frizzy fibers, smooth strands, wiry fibers, soft plush hair
+hair_style	straight, wild/spiky, messy/frizzy, voluminous, braided, short tuft, hidden under ...
+
+
+type Hand-Rod puppet, Live-Hand puppet, and Full-Bodied puppet
+material	felt, fleece, plush fabric, synthetic fiber, foam-backed fabric
+construction	stitched puppet seams, exaggerated puppet shapes, soft sculpted forms
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+[
+  {
+    "image_title": "120 Curious Map‑Scout",
+    "gender": "Female",
+    "character_prompt": "A bright‑eyed young map‑scout who wanders forgotten trails with boundless optimism, always carrying scraps of half‑finished sketches and dreaming of charting the unknown.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "felt",
+      "finish": "matte, soft, saturated colors",
+      "construction": "stitched puppet seams",
+      "skin_color": "mint green",
+      "skin_texture": "smooth felt",
+      "hair_color": "sunset orange",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "voluminous"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "121 Spirited River Forager",
+    "gender": "Female",
+    "character_prompt": "A cheerful river forager who gathers herbs and curiosities along winding waterways, always humming tunes and eager for small adventures.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "fleece",
+      "finish": "matte, soft, saturated colors",
+      "construction": "exaggerated puppet shapes",
+      "skin_color": "lavender purple",
+      "skin_texture": "fine-grain fabric",
+      "hair_color": "deep teal",
+      "hair_texture": "smooth strands",
+      "hair_style": "braided"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "122 Hopeful Desert Wanderer",
+    "gender": "Female",
+    "character_prompt": "A young desert wanderer who searches for hidden oases and ancient stones, guided by instinct and an unshakable sense of wonder.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "plush fabric",
+      "finish": "matte, soft, saturated colors",
+      "construction": "soft sculpted forms",
+      "skin_color": "peachy coral",
+      "skin_texture": "plush-like",
+      "hair_color": "charcoal grey",
+      "hair_texture": "wiry fibers",
+      "hair_style": "wild/spiky"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "123 Determined Village Scout",
+    "gender": "Female",
+    "character_prompt": "A determined young scout who runs messages between distant villages, quick on her feet and always eager to help travelers.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "synthetic fiber",
+      "finish": "matte, soft, saturated colors",
+      "construction": "stitched puppet seams",
+      "skin_color": "sky blue",
+      "skin_texture": "smooth felt",
+      "hair_color": "golden yellow",
+      "hair_texture": "frizzy fibers",
+      "hair_style": "messy/frizzy"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "124 Gentle Harbor Deckhand",
+    "gender": "Female",
+    "character_prompt": "A kindhearted deckhand who helps load small ships and dreams of one day discovering distant shores, though she’s content with simple seaside adventures.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "foam-backed fabric",
+      "finish": "matte, soft, saturated colors",
+      "construction": "exaggerated puppet shapes",
+      "skin_color": "soft rose pink",
+      "skin_texture": "matte foam surface",
+      "hair_color": "navy blue",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "125 Upbeat Forest Trapper",
+    "gender": "Female",
+    "character_prompt": "A lively forest trapper who sets simple snares for small game and collects curious trinkets from the woods, always cheerful and talkative.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "felt",
+      "finish": "matte, soft, saturated colors",
+      "construction": "soft sculpted forms",
+      "skin_color": "lime green",
+      "skin_texture": "coarse felt",
+      "hair_color": "burgundy red",
+      "hair_texture": "soft plush hair",
+      "hair_style": "voluminous"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "126 Bright-Eyed Street Courier",
+    "gender": "Female",
+    "character_prompt": "A nimble street courier who darts through crowded markets delivering small parcels, always upbeat and eager for the next errand.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "fleece",
+      "finish": "matte, soft, saturated colors",
+      "construction": "stitched puppet seams",
+      "skin_color": "soft violet",
+      "skin_texture": "smooth felt",
+      "hair_color": "forest green",
+      "hair_texture": "smooth strands",
+      "hair_style": "short tuft"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "127 Cheerful Mountain Guide",
+    "gender": "Female",
+    "character_prompt": "A young mountain guide who helps travelers navigate rocky passes, always smiling and eager to share stories of the peaks.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "plush fabric",
+      "finish": "matte, soft, saturated colors",
+      "construction": "exaggerated puppet shapes",
+      "skin_color": "pale turquoise",
+      "skin_texture": "plush-like",
+      "hair_color": "amber brown",
+      "hair_texture": "wiry fibers",
+      "hair_style": "braided"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "128 Optimistic Jungle Forager",
+    "gender": "Female",
+    "character_prompt": "A spirited jungle forager who collects fruits, vines, and rare leaves, always excited by the smallest discoveries.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "synthetic fiber",
+      "finish": "matte, soft, saturated colors",
+      "construction": "soft sculpted forms",
+      "skin_color": "warm apricot",
+      "skin_texture": "fine-grain fabric",
+      "hair_color": "orchid purple",
+      "hair_texture": "frizzy fibers",
+      "hair_style": "messy/frizzy"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "129 Friendly Coastal Gatherer",
+    "gender": "Female",
+    "character_prompt": "A friendly coastal gatherer who collects shells, driftwood, and washed-up curios, always eager to share her finds with others.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "felt",
+      "finish": "matte, soft, saturated colors",
+      "construction": "stitched puppet seams",
+      "skin_color": "seafoam green",
+      "skin_texture": "smooth felt",
+      "hair_color": "copper red",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "130 Enthusiastic Cabin Boy",
+    "gender": "Male",
+    "character_prompt": "A cheerful young cabin boy who performs simple chores aboard small vessels, dreaming of adventure while staying upbeat and hardworking.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "fleece",
+      "finish": "matte, soft, saturated colors",
+      "construction": "exaggerated puppet shapes",
+      "skin_color": "pale lime",
+      "skin_texture": "smooth felt",
+      "hair_color": "jet black",
+      "hair_texture": "smooth strands",
+      "hair_style": "short tuft"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "131 Young Frontier Scout",
+    "gender": "Male",
+    "character_prompt": "A spirited frontier scout who explores woodland edges and open plains, always eager to learn from the land.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "felt",
+      "finish": "matte, soft, saturated colors",
+      "construction": "soft sculpted forms",
+      "skin_color": "soft peach",
+      "skin_texture": "fine-grain fabric",
+      "hair_color": "rust red",
+      "hair_texture": "wiry fibers",
+      "hair_style": "wild/spiky"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "132 Good‑Natured Treasure Digger",
+    "gender": "Male",
+    "character_prompt": "A hopeful treasure digger who searches old ruins for small trinkets, always optimistic even when he finds nothing at all.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "plush fabric",
+      "finish": "matte, soft, saturated colors",
+      "construction": "stitched puppet seams",
+      "skin_color": "soft cyan",
+      "skin_texture": "plush-like",
+      "hair_color": "sand blonde",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+ 
+	    {
+    "image_title": "133 Jovial Street Performer",
+    "gender": "Male",
+    "character_prompt": "A lively street performer who juggles, sings, and entertains passersby, always full of energy and charm.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "synthetic fiber",
+      "finish": "matte, soft, saturated colors",
+      "construction": "exaggerated puppet shapes",
+      "skin_color": "warm tangerine",
+      "skin_texture": "smooth felt",
+      "hair_color": "bright auburn",
+      "hair_texture": "frizzy fibers",
+      "hair_style": "wild/spiky"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "134 Upbeat Farmhand Adventurer",
+    "gender": "Male",
+    "character_prompt": "A hardworking farmhand who sneaks away for small adventures in nearby fields and forests, always optimistic and curious.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "felt",
+      "finish": "matte, soft, saturated colors",
+      "construction": "soft sculpted forms",
+      "skin_color": "light chartreuse",
+      "skin_texture": "coarse felt",
+      "hair_color": "straw blonde",
+      "hair_texture": "smooth strands",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "135 Hopeful Dockside Porter",
+    "gender": "Male",
+    "character_prompt": "A young dockside porter who carries crates and ropes with enthusiasm, dreaming of one day joining an expedition.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "fleece",
+      "finish": "matte, soft, saturated colors",
+      "construction": "stitched puppet seams",
+      "skin_color": "soft periwinkle",
+      "skin_texture": "fine-grain fabric",
+      "hair_color": "dark chestnut",
+      "hair_texture": "wiry fibers",
+      "hair_style": "short tuft"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "136 Eager Trail Pathfinder",
+    "gender": "Male",
+    "character_prompt": "A young pathfinder who marks safe routes through forests and hills, always excited to discover new shortcuts.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "plush fabric",
+      "finish": "matte, soft, saturated colors",
+      "construction": "exaggerated puppet shapes",
+      "skin_color": "cool aqua",
+      "skin_texture": "plush-like",
+      "hair_color": "mahogany brown",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "messy/frizzy"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "137 Cheerful Quarry Worker",
+    "gender": "Male",
+    "character_prompt": "A cheerful young quarry worker who chips stones and carries tools, always humming and eager for small adventures after work.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "synthetic fiber",
+      "finish": "matte, soft, saturated colors",
+      "construction": "soft sculpted forms",
+      "skin_color": "dusty lavender",
+      "skin_texture": "matte foam surface",
+      "hair_color": "ash grey",
+      "hair_texture": "frizzy fibers",
+      "hair_style": "wild/spiky"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "138 Lighthearted Swamp Gatherer",
+    "gender": "Male",
+    "character_prompt": "A lighthearted swamp gatherer who collects reeds, herbs, and curious bog trinkets, always cheerful despite the muck.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "felt",
+      "finish": "matte, soft, saturated colors",
+      "construction": "stitched puppet seams",
+      "skin_color": "mossy green",
+      "skin_texture": "coarse felt",
+      "hair_color": "olive brown",
+      "hair_texture": "soft plush hair",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "139 Sunny‑Spirited Road Peddler",
+    "gender": "Male",
+    "character_prompt": "A sunny‑spirited young peddler who travels dusty roads selling small trinkets, always smiling and eager to meet new people.",
+    "format": "A head-and-shoulders puppetportrait of this character as a puppet, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "A head-and-shoulders puppet portrait in a vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations. Bold black outlines, expressive cartoon features, flat colors, cross‑hatching, halftone dot texture, and classic retro-comic visual language. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "type": "Hand-Rod puppet",
+      "material": "fleece",
+      "finish": "matte, soft, saturated colors",
+      "construction": "exaggerated puppet shapes",
+      "skin_color": "warm pastel yellow",
+      "skin_texture": "smooth felt",
+      "hair_color": "bright copper",
+      "hair_texture": "smooth strands",
+      "hair_style": "voluminous"
+    },
+    "global_style_seed": 4654,
+    "transparent_background": true
+  }
+]
+
+
+
+
+-------------------------------------------------------------------------------------
+
+[
+  {
+    "image_title": "150 Curious Pathfinder",
+    "gender": "female",
+    "character_prompt": "A young, eager pathfinder from a 16th‑century frontier expedition, inexperienced but enthusiastic, always taking notes and trying to learn from every trail.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "soft lavender",
+      "skin_texture": "smooth felt",
+      "hair_color": "dark auburn",
+      "hair_texture": "smooth strands",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "151 Timid Treasure-Seeker",
+    "gender": "female",
+    "character_prompt": "A shy but determined treasure-seeker from a 17th‑century coastal town, new to adventuring and easily startled but full of hope.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "mint green",
+      "skin_texture": "fuzzy felt",
+      "hair_color": "light chestnut",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "voluminous"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "152 Hopeful Scout",
+    "gender": "female",
+    "character_prompt": "A novice scout from a 15th‑century borderland militia, earnest and eager to prove herself despite lacking field experience.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "pale teal",
+      "skin_texture": "fine-grain fabric",
+      "hair_color": "black",
+      "hair_texture": "wiry fibers",
+      "hair_style": "braided"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "153 Gentle River Explorer",
+    "gender": "female",
+    "character_prompt": "A soft‑spoken river explorer from the 14th‑century trade routes, fascinated by maps and currents, still learning the basics of navigation.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "soft peach-pink",
+      "skin_texture": "matte foam surface",
+      "hair_color": "dark brown",
+      "hair_texture": "soft plush hair",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "154 Earnest Cabin Guard",
+    "gender": "female",
+    "character_prompt": "A low‑rank cabin guard aboard a merchant vessel, inexperienced but loyal, always trying to follow orders correctly.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "powder blue",
+      "skin_texture": "plush-like",
+      "hair_color": "golden blond",
+      "hair_texture": "smooth strands",
+      "hair_style": "short tuft"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "155 Naive Relic Hunter",
+    "gender": "female",
+    "character_prompt": "A young relic hunter from a 13th‑century monastery outpost, book-smart but field‑naive, fascinated by ancient objects.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "soft coral",
+      "skin_texture": "smooth felt",
+      "hair_color": "dark copper",
+      "hair_texture": "frizzy fibers",
+      "hair_style": "messy/frizzy"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "156 Bright-Eyed Musketeer Recruit",
+    "gender": "female",
+    "character_prompt": "A fresh recruit in a 17th‑century musketeer regiment, optimistic and clumsy, still learning how to hold her weapon properly.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "lavender-grey",
+      "skin_texture": "fine-grain fabric",
+      "hair_color": "jet black",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "voluminous"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "157 Soft-Spoken Desert Wanderer",
+    "gender": "female",
+    "character_prompt": "A gentle wanderer from a 12th‑century desert caravan, inexperienced in combat but skilled at observing landscapes.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "warm sand-yellow",
+      "skin_texture": "coarse felt",
+      "hair_color": "dark mahogany",
+      "hair_texture": "smooth strands",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "158 Cheerful Forest Forager",
+    "gender": "female",
+    "character_prompt": "A cheerful forager from a 14th‑century woodland village, inexperienced in danger but excellent at spotting edible plants.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "light moss-green",
+      "skin_texture": "plush-like",
+      "hair_color": "reddish brown",
+      "hair_texture": "soft plush hair",
+      "hair_style": "braided"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "159 Unseasoned Harbor Lookout",
+    "gender": "female",
+    "character_prompt": "A young harbor lookout from a 16th‑century port, easily distracted but earnest about spotting incoming ships.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "soft lilac",
+      "skin_texture": "smooth felt",
+      "hair_color": "sandy blond",
+      "hair_texture": "wiry fibers",
+      "hair_style": "wild/spiky"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "160 Greenhorn Deckhand",
+    "gender": "male",
+    "character_prompt": "A young deckhand on a 17th‑century merchant ship, inexperienced and eager to impress the crew with basic rope skills.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "pale mint",
+      "skin_texture": "fuzzy felt",
+      "hair_color": "dark blond",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "messy/frizzy"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "161 Bashful Footman",
+    "gender": "male",
+    "character_prompt": "A bashful footman from a 15th‑century noble household, unused to travel but assigned to accompany a caravan for the first time.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "soft sky-blue",
+      "skin_texture": "smooth felt",
+      "hair_color": "brown",
+      "hair_texture": "smooth strands",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "162 Inexperienced Border Sentry",
+    "gender": "male",
+    "character_prompt": "A low‑rank border sentry from a 14th‑century watchpost, nervous but dutiful, still learning how to stay alert during long shifts.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "dusty olive",
+      "skin_texture": "coarse felt",
+      "hair_color": "black",
+      "hair_texture": "wiry fibers",
+      "hair_style": "short tuft"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "163 Gentle Farmhand Adventurer",
+    "gender": "male",
+    "character_prompt": "A farmhand who joined a 13th‑century expedition, kind-hearted and inexperienced, carrying more enthusiasm than skill.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "soft apricot",
+      "skin_texture": "plush-like",
+      "hair_color": "light brown",
+      "hair_texture": "soft plush hair",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "164 Rookie Pike Carrier",
+    "gender": "male",
+    "character_prompt": "A rookie pike carrier from a 16th‑century infantry line, clumsy but eager to learn formation drills.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "pale turquoise",
+      "skin_texture": "fine-grain fabric",
+      "hair_color": "dark ginger",
+      "hair_texture": "frizzy fibers",
+      "hair_style": "wild/spiky"
+    },
+    "global_style_seed": 7654,
+    "transparent_background":
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	-----
+	
+	[
+  {
+    "image_title": "150 Curious Map‑Reader",
+    "gender": "Female",
+    "character_prompt": "A young, wide‑eyed explorer with a cautious smile, clutching a blank map and an abacus strap around her shoulder. She wears simple travel leathers and carries a haunted medallion hanging at her chest, its glow faint and unsettling. Her posture is timid but eager, clearly untested in the field.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "mint green",
+      "skin_texture": "smooth felt",
+      "hair_color": "dark auburn",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "151 Timid Rope‑Climber",
+    "gender": "Female",
+    "character_prompt": "A nervous novice thief with a coil of rope over one shoulder and a small dagger tucked near her collar. A hexed lantern dangles from a cord around her neck, faintly shimmering. Her expression is unsure but determined.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "lavender purple",
+      "skin_texture": "fine-grain fabric",
+      "hair_color": "jet black",
+      "hair_texture": "smooth strands",
+      "hair_style": "messy/frizzy"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "152 Hesitant Crossbow Novice",
+    "gender": "Female",
+    "character_prompt": "A shy young scout with a small crossbow strap visible near her shoulder and a rune‑etched charm hanging from her neck. Her chainmail collar peeks into view, slightly oversized for her frame.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "soft teal",
+      "skin_texture": "plush-like",
+      "hair_color": "strawberry blonde",
+      "hair_texture": "soft plush hair",
+      "hair_style": "voluminous"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "153 Gentle Faith‑Bearer",
+    "gender": "Female",
+    "character_prompt": "A meek acolyte holding a small symbol of faith close to her chest, incense smoke drifting from a black censer hanging on a cord. Her expression is serene but inexperienced.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "pale sky blue",
+      "skin_texture": "smooth felt",
+      "hair_color": "light brown",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "braided"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "154 Soft‑Spoken Whip‑Bearer",
+    "gender": "Female",
+    "character_prompt": "A timid novice zealot with a barbed whip coiled at her shoulder and a holy scripture tucked under her arm. Her eyes show uncertainty despite her training.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "dusty rose",
+      "skin_texture": "matte foam surface",
+      "hair_color": "silver",
+      "hair_texture": "frizzy fibers",
+      "hair_style": "wild/spiky"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "155 Bashful Blowgun Forager",
+    "gender": "Female",
+    "character_prompt": "A shy gatherer with an animal mask hanging from her neck and a blowgun slung behind her shoulder. Exotic seeds fill a small pouch near her collar.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "soft coral",
+      "skin_texture": "fuzzy felt",
+      "hair_color": "forest green",
+      "hair_texture": "wiry fibers",
+      "hair_style": "short tuft"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "156 Crab‑Shell Wanderer",
+    "gender": "Female",
+    "character_prompt": "A gentle wanderer wearing a giant crab shell piece as shoulder protection. She carries a large crab leg strapped behind her back, visible only at the top edge of the portrait.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "seafoam green",
+      "skin_texture": "plush-like",
+      "hair_color": "sand blonde",
+      "hair_texture": "smooth strands",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "157 Scarred Fisher‑Scout",
+    "gender": "Female",
+    "character_prompt": "A young fisher with a noticeable facial scar and a fishing rod strap visible behind her shoulder. A broken bottle is tucked at her belt, barely visible.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "pale lilac",
+      "skin_texture": "fine-grain fabric",
+      "hair_color": "dark chestnut",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "messy/frizzy"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "158 Peg‑Leg Trick‑Shooter",
+    "gender": "Female",
+    "character_prompt": "A novice gunner with a pegleg just barely implied at the bottom of the frame. A small gun is hidden inside it, and she wears a visored helmet slightly too large for her head.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "warm peach",
+      "skin_texture": "smooth felt",
+      "hair_color": "midnight blue",
+      "hair_texture": "soft plush hair",
+      "hair_style": "voluminous"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "159 Banana‑Toting Deckhand",
+    "gender": "Female",
+    "character_prompt": "A cheerful but inexperienced sailor with a cutlass strapped behind her shoulder and a stack of bananas peeking into view. A tiny odd monkey clings to her collar.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "soft turquoise",
+      "skin_texture": "plush-like",
+      "hair_color": "bright orange",
+      "hair_texture": "frizzy fibers",
+      "hair_style": "wild/spiky"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "160 Cautious Axe‑Thrower",
+    "gender": "Male",
+    "character_prompt": "A young adventurer with three throwing axes strapped behind his shoulder and a flail handle barely visible. He smells faintly of expensive coffee beans carried in a pouch.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "pale mint",
+      "skin_texture": "smooth felt",
+      "hair_color": "dark brown",
+      "hair_texture": "synthetic fiber strands",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "161 Nervous Card‑Sharp",
+    "gender": "Male",
+    "character_prompt": "A jittery gambler with marked cards tucked into his vest and a sword cane leaning against his shoulder. Loaded dice peek from a pocket.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "soft violet",
+      "skin_texture": "fine-grain fabric",
+      "hair_color": "black",
+      "hair_texture": "smooth strands",
+      "hair_style": "short tuft"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "162 Flour‑Dusted Baker‑Brute",
+    "gender": "Male",
+    "character_prompt": "A gentle baker‑turned‑adventurer with flour dust on his shoulders and a rolling pin strapped behind him. His leather apron collar is visible.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "light olive green",
+      "skin_texture": "matte foam surface",
+      "hair_color": "dark ginger",
+      "hair_texture": "wiry fibers",
+      "hair_style": "messy/frizzy"
+    },
+    "global_style_seed": 7654,
+    "transparent_background": true
+  },
+
+
+ 
+
+
+  {
+    "image_title": "163 Shovel‑Carrying Wanderer",
+    "gender": "Male",
+	"character_base": "A colorful puppet character with big expressive eyes, fuzzy texture, and a playful smile,
+    "character_prompt": "A timid drifter with a combat shovel slung behind his shoulder and a tiny pet roach perched near his collar. He smells faintly of animal repellent.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the Katzenjammer Kids or Popeye). Bold black outlines, expressive cartoon features, flat colors, cross-hatching, Ben-Day dot halftone texture. No text, letters, symbols, or writing anywhere in the image.",
+    "puppet_properties": {
+      "construction": "stitched puppet features with exaggerated shapes",
+      "skin_color": "dusty blue",
+      "skin_texture": "fuzzy felt",
+      "hair_color": "light grey",
+      "hair_texture": "soft plush hair",
+      "hair_style": "straight"
+    },
+    "global_style_seed": 7658,
+    "transparent_background": true
+  },
+
+  {
+    "image_title": "164 Tea‑Sipping Staff‑Bearer",
+    "gender": "Male",
+    "character_prompt": "A polite novice wanderer with a brass staff leaning against his shoulder and a pouch of expensive tea tied near his collar. A loud horn hangs from a strap.",
+    "format": "A head-and-shoulders felt-like puppet portrait of this character, square format, 3/4 view. No text, letters, symbols, or writing anywhere in the image.",
+    "style_prompt": "Vintage print-cartoon aesthetic inspired by mid‑century newspaper illustrations and visual language (like Hägar the Horrible style by Dik Browne, the
