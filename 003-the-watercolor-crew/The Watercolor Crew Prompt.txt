@@ -1,0 +1,234 @@
+Hello
+
+Please write a series of JSON so that I can generate portrait for these characters according to their folowing statistics.
+
+Coco (Int),Musclo (Mus),Bricolo (Bri),Género,Edad,Nombre / Apodo,Short description
+-1,1,2,Boy,10,Viruta,A master with wood and nails who often gets lost in his own thoughts.
+-1,2,1,Boy,10,Timoteo,"An old-fashioned name for a boy as strong as an oak, but not very fond of books."
+1,-1,2,Boy,10,Candil,Bright and inventive; he can fix any lantern but trips over his own feet.
+1,2,-1,Boy,10,Trabuco,"Loud, brave, and smart, though he tends to break things instead of fixing them."
+2,1,-1,Boy,10,Ambrocio,A studious boy with a noble soul; he plans the attacks but avoids the toolbox.
+2,-1,1,Boy,10,Catalejo,"He has the sharpest mind and eyes of the fleet, though he lacks physical strength."
+-1,1,2,Girl,10,Estopa,"Rough and ready to repair any sail, she acts way before she thinks."
+-1,2,1,Girl,10,Casilda,A vintage name for a girl who can lift a cannon but can't solve a riddle.
+1,-1,2,Girl,10,Gubia,Named after a carpenter's tool; she is precise and clever with her hands.
+1,2,-1,Girl,10,Prudencia,"Despite her name, she is a daring warrior who knows when to strike."
+2,1,-1,Girl,10,Eulalia,An old name for a girl who speaks many languages and outsmarts every merchant.
+2,-1,1,Girl,10,Brujújula,"A play on ""compass""; she is the brains of the ship and never loses her way."
+
+These characters are cabin boy, ship's boy, Ship's apprentice,Grommet, Swabber ... etc. They are all around 10 years old.  All shall have a graphical positive attitude (not necesarly smilling) thus avoid word like fierce, cruel, angry ... etc ...
+Character shall be inclusive, any origin and ethnie, any body size --> Generate a precise descrition in the character_prompt, dont just put "origin and body type are open" 
+THese character are form the 15th 16th or 17th century
+
+Clothe color shall be vivid.
+
+The description shall be as precise as possible taking all of that into account, but since the image is a head-and-shoulders cartoon portrait thus avoid details taht will not be drawed (like pet leg)
+
+
+
+The JSON shall follow this template
+
+  {
+    "function": [2 digit number starting at 13] [Insert an Original Character Function],
+	"name": [Insert Character Name],
+	"gender": [Insert Character Gender],
+	"age": [Insert Character Age],
+    "format_prompt": "A head-and-shoulders  portrait, square format, 3/4 view."
+	"style_prompt": Simple black line art with thin, slightly sketchy contours.  Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": [Insert CHaracter Description, ephasize the age, all are around 10],
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+  
+ Put all the json in one file
+
+
+[
+  {
+    "function": "13 Carpenter’s Apprentice",
+    "name": "Viruta",
+    "gender": "Boy",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A 10‑year‑old boy of mixed Mediterranean and North African heritage, with warm brown skin, a round face, and soft, thoughtful eyes. His hair is dark, curly, and slightly tousled, hinting at hours spent daydreaming in the ship’s workshop. He wears a vivid saffron‑yellow 16th‑century sailor’s vest over a simple linen shirt, the collar a bit crooked from distraction. A few tiny wood shavings cling to his shoulders, suggesting his skill with wood and nails. His posture is gentle and absent‑minded, giving him a calm, positive aura.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+
+  {
+    "function": "14 Deckhand-in-Training",
+    "name": "Timoteo",
+    "gender": "Boy",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A sturdy 10‑year‑old boy of Iberian origin with sun‑kissed skin, a broad jaw, and thick eyebrows that give him a determined but friendly look. His hair is chestnut and cut short, slightly uneven as if trimmed aboard the ship. He wears a vivid crimson doublet patched at the shoulders, typical of a ship’s boy in the late 16th century. His neck is thick and strong, hinting at his physical power, though his expression is earnest and slightly puzzled, as if books are not his strong suit. His presence radiates good‑natured confidence.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+
+  {
+    "function": "15 Lantern Keeper",
+    "name": "Candil",
+    "gender": "Boy",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A bright‑eyed 10‑year‑old boy of mixed Caribbean and European descent, with light brown skin and a constellation of freckles across his cheeks. His hair is a fluffy halo of dark curls that fall over his forehead. He wears a vivid turquoise sailor’s jerkin with simple wooden toggles, slightly askew from his clumsy movements. His expression is lively and inventive, with a spark of curiosity, though his posture tilts as if he might trip at any moment. He carries the cheerful energy of a boy who can fix anything-except his own balance.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+
+  {
+    "function": "16 Powder Runner",
+    "name": "Trabuco",
+    "gender": "Boy",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A 10‑year‑old boy of West African and Iberian heritage with deep brown skin, expressive eyes, and a wide, confident stance. His hair is short and tightly curled. He wears a vivid emerald‑green vest over a linen shirt, the collar slightly frayed from energetic activity. His expression is bold and clever, with a hint of mischief, as if he often charges into action before thinking. Though strong and smart, he tends to break things unintentionally, which shows in the small tear on his shoulder seam. His overall presence is spirited and positive.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+
+  {
+    "function": "17 Navigator’s Scholar",
+    "name": "Ambrocio",
+    "gender": "Boy",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A studious 10‑year‑old boy of Central European descent with pale skin, a long nose, and soft, observant eyes. His straight blond hair is neatly tied back with a thin ribbon, unusual for a ship’s apprentice but fitting his scholarly nature. He wears a vivid violet doublet with simple brass buttons, clean and well‑kept, showing he avoids manual labor when possible. His posture is upright and thoughtful, as if planning strategies in his head. He radiates a gentle, noble intelligence.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+
+  {
+    "function": "18 Lookout’s Apprentice",
+    "name": "Catalejo",
+    "gender": "Boy",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A slender 10‑year‑old boy of Andean and Spanish heritage with copper‑toned skin and sharp, attentive eyes. His black hair is straight and tied in a short topknot, practical for lookout duties. He wears a vivid sky‑blue sailor’s vest, slightly oversized, giving him a delicate silhouette. Though physically small, his gaze is focused and intelligent, suggesting exceptional perception. His expression is calm and positive, with a hint of quiet pride in his keen eyesight.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+
+  {
+    "function": "19 Sail Repair Assistant",
+    "name": "Estopa",
+    "gender": "Girl",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A 10‑year‑old girl of Afro‑Caribbean origin with warm brown skin, a round face, and lively eyes. Her hair is tied in a high puff secured with a strip of bright cloth. She wears a vivid orange 17th‑century sailor’s smock with rolled sleeves, showing her readiness to repair sails at a moment’s notice. Her expression is energetic and impulsive, yet friendly, with a positive, action‑first attitude. Her posture leans slightly forward, as if always ready to jump into work.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+
+  {
+    "function": "20 Cannon Assistant",
+    "name": "Casilda",
+    "gender": "Girl",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A strong 10‑year‑old girl of Castilian heritage with fair skin, a square jaw, and thick dark hair braided tightly down her back. She wears a vivid ruby‑red jerkin with reinforced seams, hinting at her ability to lift heavy equipment. Her expression is warm and straightforward, though her eyes show that riddles are not her favorite pastime. Her shoulders are broad for her age, giving her a sturdy silhouette, yet her demeanor remains gentle and positive.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+
+  {
+    "function": "21 Woodcarver’s Assistant",
+    "name": "Gubia",
+    "gender": "Girl",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A precise and clever 10‑year‑old girl of Southeast Asian and Iberian heritage with warm golden‑brown skin and almond‑shaped eyes. Her straight black hair is cut in a neat bob that frames her face. She wears a vivid lime‑green vest over a cream shirt, both speckled with tiny marks of wood dust. Her expression is focused yet kind, reflecting her skill with delicate tools. Her posture is upright and meticulous, radiating quiet confidence.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+
+  {
+    "function": "22 Junior Warrior",
+    "name": "Prudencia",
+    "gender": "Girl",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A daring 10‑year‑old girl of North African and Andalusian descent with olive skin, bright eyes, and a confident tilt to her chin. Her wavy dark hair is tied with a vivid magenta ribbon. She wears a vivid cobalt‑blue jerkin with decorative stitching, giving her a bold silhouette. Despite her name, she is courageous and decisive, though her expression remains warm and positive. Her posture suggests readiness without aggression, fitting her role aboard the ship.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+
+  {
+    "function": "23 Merchant Interpreter",
+    "name": "Eulalia",
+    "gender": "Girl",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A clever 10‑year‑old girl of mixed Basque and Middle Eastern heritage with light olive skin, a slender face, and bright, multilingual eyes. Her long dark hair is braided with a thin strip of vivid yellow cloth. She wears a vivid teal vest with embroidered edges, reflecting her role in trade and communication. Her expression is calm, intelligent, and subtly amused, as if she enjoys outsmarting merchants. Her posture is relaxed but attentive.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  },
+
+  {
+    "function": "24 Junior Navigator",
+    "name": "Brujújula",
+    "gender": "Girl",
+    "age": 10,
+    "format_prompt": "A head-and-shoulders portrait, square format, 3/4 view.",
+    "style_prompt": "Simple black line art with thin, slightly sketchy contours. Childlike proportions with rounded shapes and minimal facial features (dot eyes, small curved mouth, rosy cheeks). Loose watercolor edges, visible paper texture, and gentle shading. No background.",
+    "character_prompt": "A bright 10‑year‑old girl of Indigenous Caribbean and Spanish heritage with warm coppery skin and sharp, perceptive eyes. Her curly dark hair is tied with a vivid purple band. She wears a vivid chartreuse vest with simple nautical embroidery. Her expression is confident and thoughtful, reflecting her exceptional sense of direction. Her posture is steady and composed, giving her a calm, positive presence as the brains of the ship’s young crew.",
+    "style_strength": "high",
+    "coloring_style": "Soft watercolor (aquarelle/lavis) washes in warm, low‑saturation colors.",
+    "global_style_seed": 777,
+    "transparent_background": true
+  }
+]
+
+
+
+
+
+01 - Viruta - Carpenter’s Apprentice
+02 - Timoteo - Deckhand‑in‑Training
+03 - Candil - Lantern Keeper
+04 - Trabuco - Powder Runner
+05 - Ambrocio - Navigator’s Scholar
+06 - Catalejo - Lookout’s Apprentice
+07 - Estopa - Sail Repair Assistant
+08 - Casilda - Cannon Assistant
+09 - Gubia - Woodcarver’s Assistant
+10 - Prudencia - Junior Warrior
+11 - Eulalia - Merchant Interpreter
+12 - Brujújula - Junior Navigator
+
